@@ -78,7 +78,9 @@ Library
 --  HS-Source-Dirs: tests/
 --  Main-is: test-parser.hs
 
-executable tests
+Test-Suite spec
+    type:           exitcode-stdio-1.0
+
     main-is:    tests.hs
     ghc-options: -W
 
