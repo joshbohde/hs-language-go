@@ -18,6 +18,7 @@ module Language.Go.Parser.Parser (
 
   -- * Parsers for main language elements
   goSource,
+  goPackageClause,
   goImportDecl,
   goTopLevelDecl,
   goType,
