@@ -25,6 +25,9 @@ module Language.Go.Parser.Parser (
   goBlock,
   goExpression,
   goStatement,
+
+  -- * Combinators
+  goSemi
 ) where
 import Language.Go.Parser.Operators
 import Language.Go.Parser.Tokens
